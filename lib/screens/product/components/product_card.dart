@@ -8,12 +8,12 @@ class ProductCard extends StatelessWidget {
     super.key,
     this.itemIndex,
     this.product,
-    this.press,
+    required this.press,
   });
 
   final int? itemIndex;
   final Product? product;
-  final Function? press;
+  final Function()? press;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +25,7 @@ class ProductCard extends StatelessWidget {
         vertical: kDefaultPadding / 2,
       ),
       child: InkWell(
-        onTap: () => press,
+        onTap: press,
         child: Stack(
           alignment: Alignment.bottomCenter,
           children: [
