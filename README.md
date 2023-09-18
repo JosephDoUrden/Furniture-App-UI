@@ -1,5 +1,7 @@
 # Flutter Furniture App UI
 
+![banner](furniture-app-ui.png)
+
 Design Credits: The Flutter Way
 [View on Github](https://github.com/abuanwar072/furniture_app_flutter)
 
